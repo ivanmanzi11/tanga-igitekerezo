@@ -1,0 +1,21 @@
+{
+  "name": "Tanga Igitekerezo",
+  "short_name": "Tanga Igitekerezo",
+  "description": "A digital suggestion box: send a suggestion, complaint or word of thanks — anonymously — and follow it until it is answered.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f4ec",
+  "theme_color": "#1f4b43",
+  "lang": "en",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Submit", "url": "/submit" },
+    { "name": "Track a case", "url": "/track" }
+  ]
+}

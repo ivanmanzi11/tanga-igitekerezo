@@ -1,0 +1,27 @@
+# SQLite database
+db.sqlite3
+db.sqlite3-*
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# React / Vite
+node_modules/
+dist/
+
+# Uploaded attachments
+media/
+
+# Logs
+*.log
+.vite/
